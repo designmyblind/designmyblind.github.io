@@ -14,20 +14,22 @@
 
             var el = document.createElement('script');
             el.type = 'text/javascript';
-            el.src = 'https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js';
+            el.async = true;
+            el.src = '//cdn.snipcart.com/themes/v3.0.27/default/snipcart.js';
             document.getElementsByTagName('head')[0].appendChild(el);
 
             el = document.createElement('link');
             el.rel = 'stylesheet';
-            el.href = 'https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css';
+            el.href = '//cdn.snipcart.com/themes/v3.0.27/default/snipcart.css';
             document.getElementsByTagName('head')[0].appendChild(el);
 
             el = document.createElement('script');
             el.type = 'text/javascript';
-            el.src = 'https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js';
+            el.async = true;
+            el.src = '//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js';
             document.getElementsByTagName('head')[0].appendChild(el);
 
-        }, 1000);
+        }, 3000);
     });
   </script>
 </html>
